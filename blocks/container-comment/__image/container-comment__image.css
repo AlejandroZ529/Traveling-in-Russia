@@ -1,0 +1,13 @@
+
+.container-comment__image {
+    width: 97px;
+    height: 97px;
+    border-radius: 50%;
+    margin: 0 auto auto 0;
+    background-color: #c4c4c4;
+  }
+  @media screen and (max-width:768px){
+    .container-comment__image{
+      margin: 0 auto;
+    }
+  }

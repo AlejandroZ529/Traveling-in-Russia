@@ -1,0 +1,15 @@
+
+
+.url {
+    text-decoration: none;
+    margin-top: 16px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 30px;
+    color: #ffffff;
+    text-decoration-line: underline;
+  }
+  .url:hover {
+    opacity: .5;
+  }

@@ -1,0 +1,28 @@
+@import url("./__image/place__image.css");
+@import url("./__paragraph/place__paragraph.css");
+@import url("./__paragraphs/place__paragraphs.css");
+@import url("./__title/place__title.css");
+@import url("./__website/place__website.css");
+
+.place {
+  display: grid;
+  grid-template-areas:
+    "title website"
+    "image paragraphs";
+}
+@media screen and (max-width: 1024px) {
+  .place {
+    column-gap: 32px;
+  }
+}
+@media screen and (max-width: 611px) {
+  .place {
+    display: block;
+    margin: 0 auto;
+  }
+}
+@media screen and (max-width: 320px) {
+  .place {
+    max-width: 320px;
+  }
+}

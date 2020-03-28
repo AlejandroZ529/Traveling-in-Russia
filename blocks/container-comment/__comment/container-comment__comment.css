@@ -1,0 +1,13 @@
+
+.container-comment__comment{
+    flex:1;
+}
+@media screen and (max-width: 768px) {
+    .container-comment__comment {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding-bottom: 33px;
+    
+  }
+}

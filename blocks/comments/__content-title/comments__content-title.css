@@ -1,0 +1,33 @@
+.comments__content-title {
+  max-width: 800px;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 72px;
+  line-height: 108.9%;
+  text-align: center;
+  color: #ffffff;
+  margin: 0 auto auto;
+}
+@media screen and (max-width: 1280px) {
+  .comments__content-title {
+    line-height: 78px;
+  }
+}
+@media screen and (max-width: 1024px) {
+  .comments__content-title {
+    line-height: 65px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .comments__content-title {
+    font-size: 42px;
+    line-height: 46px;
+  }
+}
+@media screen and (max-width: 375px) {
+  .comments__content-title {
+    font-size: 32px;
+    line-height: 35px;
+  }
+}
+

@@ -1,0 +1,29 @@
+.container-comment__quote {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 24px;
+  color: #ffffff;
+  margin: 35px auto 0 0;
+}
+@media screen and (max-width: 1280px) {
+  .container-comment__quote {
+    max-width: 382px;
+  }
+}
+/* @media screen and (max-width:1024px){
+    .container-comment__quote{
+      max-width: 296px;
+    }
+  } */
+@media screen and (max-width: 768px) {
+  .container-comment__quote {
+    order: 2;
+    font-size: 16px;
+    line-height: 23px;
+    margin: 0 auto;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    text-align: start;
+  }
+}
