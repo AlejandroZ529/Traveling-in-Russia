@@ -2,4 +2,4 @@
 ---
 
 `Стек`: HTML5, CSS, Grid, Flex, BEM  
-[Сайт] (https://zavizhenetc.github.io/Traveling-in-Russia/)
+[Сайт](https://zavizhenetc.github.io/Traveling-in-Russia/)
